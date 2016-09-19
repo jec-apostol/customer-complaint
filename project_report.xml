@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+		<report
+		id="report_complaints"
+		model="project.project"
+		string="Complaints Register"
+		report_type="qweb-pdf"
+		name="project.complaints_register"
+		file="project.complaints_register"
+		/>
+    </data>
+</openerp>
