@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="project_stage_data_1" model="project.task.type">
+            <field name="sequence">2</field>
+            <field name="name">For Validation</field>
+        </record>
+
+        <record id="project_stage_data_2" model="project.task.type">
+            <field name="sequence">3</field>
+            <field name="name">Validate</field>
+        </record>
+		
+		 <record id="project_stage_data_3" model="project.task.type">
+            <field name="sequence">4</field>
+            <field name="name">Done</field>
+        </record>
+		
+		
+		 <record id="project_stage_data_4" model="project.task.type">
+            <field name="sequence">5</field>
+            <field name="name">Completed</field>
+        </record>
+
+    </data>
+</openerp>
